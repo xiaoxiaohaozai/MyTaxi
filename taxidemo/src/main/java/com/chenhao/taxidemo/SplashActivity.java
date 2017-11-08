@@ -4,7 +4,6 @@ import android.graphics.drawable.AnimatedVectorDrawable;
 import android.os.Build;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.widget.ImageView;
 
 /**
@@ -19,7 +18,6 @@ public class SplashActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-            Log.d("SplashActivity", "   执行了");
             ImageView imageView = (ImageView) findViewById(R.id.logo);
             AnimatedVectorDrawable vectorDrawable = (AnimatedVectorDrawable) getResources().getDrawable(R.drawable.anim);
             imageView.setImageDrawable(vectorDrawable);

@@ -1,0 +1,13 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="50dp"
+    android:height="50dp"
+    android:viewportHeight="50.0"
+    android:viewportWidth="50.0">
+    <!--矩形 M移动到指定点,不画,H水平移动,V垂直移动,L划线到指定点-->
+    <path
+        android:pathData="M10,10,H40,V40,H10,L10,10"
+        android:strokeColor="@color/logoColor"
+        android:strokeWidth="1" />
+
+
+</vector>
