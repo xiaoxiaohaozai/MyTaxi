@@ -111,7 +111,7 @@ public class TestOkHttp3 {
             // 创建 Request 对象
             Request request = new Request.Builder()
                     .url("http://httpbin.org/get?id=id")
-                    .cacheControl(CacheControl.FORCE_NETWORK)
+                    .cacheControl(CacheControl.FORCE_CACHE)
                     .build();
             // OkHttpClient 执行 Request
             try {
